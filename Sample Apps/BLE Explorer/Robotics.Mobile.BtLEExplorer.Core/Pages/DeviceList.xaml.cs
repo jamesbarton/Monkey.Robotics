@@ -37,9 +37,9 @@ namespace Robotics.Mobile.BtLEExplorer
 				StartScanning();
 			};
 
-			ScanHrmButton.Activated += (sender, e) => {
-				StartScanning (0x180D.UuidFromPartial());
-			};
+			//ScanHrmButton.Activated += (sender, e) => {
+			//	StartScanning (0x180D.UuidFromPartial());
+			//};
 		}
 
 		public void OnItemSelected (object sender, SelectedItemChangedEventArgs e) {
